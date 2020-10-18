@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Commissioner:wght@100;200;300;400;500;600;700;800;900&family=Fira+Code:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+:root{
+    /* sam przepisywałem te wszystkie kolory, send help */
+    --pink-red-10: #750b1c;
+    --red-20: #a4262c;
+    --red-10: #d13438;
+    --red-orange-10: #da3b01;
+    --orange-30: #8e562e;
+    --orange-20: #ca5010;
+    --orange-10: #ffaa44;
+    --yellow-10: #fce100;
+    --orange-yellow-20: #986f0b;
+    --orange-yellow-10: #c19c00;
+    --yellow-green-10: #8cbd18;
+    --green-20: #0b6a0b;
+    --green-10: #498205;
+    --green-cyan-10: #00ad56;
+    --cyan-30: #005b70;
+    --cyan-20: #038387;
+    --cyan-10: #00b7c3;
+    --cyan-blue-20: #004e8c;
+    --cyan-blue-10: #0078d4;
+    --blue-10: #4f6bed;
+    --blue-magenta-30: #5c2e91;
+    --blue-magenta-20: #8764b8;
+    --blue-magenta-10: #8378de;
+    --magenta-20: #881798;
+    --magenta-10: #c239b3;
+    --magenta-pink-20: #9b0062;
+    --magenta-pink-10: #e3008c;
+    --gray-40: #393939;
+    --gray-30: #7a7574;
+    --gray-20: #69797e;
+    --gray-10: #a0aeb2;
+    --pink-red-10: #750b1c;
+    --red-20: #a4262c;
+    --red-10: #d13438;
+    --away: #ffaa44;
+    --dnd: #c50f1f;
+    --online: #6bb700;
+    --invisible: #8a8886;
+    --oooffice: #b4009e;
+    --warning: #fff4ce;
+    --warning-icon: #797673;
+    --severe-warning: #fed9cc;
+    --severe-warning-icon: #d83b01;
+    --error-block: #fde7e9;
+    --error-block-icon: #a80000;
+    --success: #dff6dd;
+    --success-icon: #107c10;
+}
+body{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+duzyTekst {
+    font-size: xx-large;
+    display: block;
+}
+
+naSrodku {
+    text-align: center;
+    display: block;
+}
+
+malyTekst {
+    font-size: small;
+    display: block;
+}
+
+sredniTekst {
+    font-size: large;
+    display: block;
+}
+
+przycisk{
+    outline: transparent none medium;
+	position: relative;
+	font-size: 14px;
+	font-weight: 400;
+	box-sizing: border-box;
+	border: 1px solid rgb(0, 120, 212);
+	display: inline-block;
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	padding: 0px 16px;
+	border-radius: 2px;
+	min-width: 80px;
+	height: 32px;
+	background-color: rgb(0, 120, 212);
+	color: rgb(255, 255, 255);
+    user-select: none;
+}
+przycisk:hover {
+	background-color: rgb(16, 110, 190);
+	border: 1px solid rgb(16, 110, 190);
+	color: rgb(255, 255, 255);
+}
+tekstPrzycisk{
+    display: flex;
+	height: 100%;
+	/* flex-wrap: nowrap; */
+	/* justify-content: center; */
+	align-items: center;
+}
+
+cienMaly {
+    box-shadow: 0 1.6px 3.6px 0 rgba(0, 0, 0, .132), 0 .3px .9px 0 rgba(0, 0, 0, .108);
+}
+
+cienSredni {
+    box-shadow: 0 3.2px 7.2px 0 rgba(0, 0, 0, .132), 0 .6px 1.8px 0 rgba(0, 0, 0, .108);
+}
+
+cienDuzy {
+    box-shadow: 0 6.4px 14.4px 0 rgba(0, 0, 0, .132), 0 1.2px 3.6px 0 rgba(0, 0, 0, .108);
+}
+
+cienNajwiekszy {
+    box-shadow: 0 25.6px 57.6px 0 rgba(0, 0, 0, .22), 0 4.8px 14.4px 0 rgba(0, 0, 0, .18);
+}
+/*    font-family: 'Baloo 2', cursive;
+
+    font-family: 'Comic Neue', cursive;
+
+    font-family: 'Commissioner', sans-serif;
+
+    font-family: 'Fira Code', monospace;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Piazzolla', serif;
+
+    font-family: 'Space Mono', monospace;*/
+czcionkaSerif{
+    font-family: 'Piazzolla', serif;
+}
+czcionkaSans{
+    font-family: 'Montserrat', sans-serif;
+}
+czcionkaSans2{
+    font-family: 'Commissioner', sans-serif;
+}
+czcionkaMono{
+    font-family: 'Fira Code', monospace;
+}
+czcionkaMono2{
+    font-family: 'Space Mono', monospace;
+}
+czcionkaComic{
+    font-family: 'Comic Neue', cursive;
+}
+czcionkaDisplay{
+    font-family: 'Baloo 2', cursive;
+}
