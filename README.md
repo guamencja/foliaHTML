@@ -21,5 +21,8 @@ FoliaHTML to HTML, tylko że, po polsku, nawet debil go zrozumie!
 ## Pull requesty
 Pull requesty mile widziane, dziękujemy z góry.
 
+## foliaHTML w przeglądarce
+Jeśli chcesz przetestować foliaHTML, możesz skorzystać z edytora pod tym linkiem: https://jsfiddle.net/ProgramistaZpolski/u0odmbza/1/
+
 ## Licencja
 [MIT](https://choosealicense.com/licenses/mit/)
