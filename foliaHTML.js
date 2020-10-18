@@ -1,7 +1,7 @@
 // foliaHTML v.1.0.0
 // by liskqu, ProgramistaZpolski
 
-addCSS = function(css="https://cdn.jsdelivr.net/gh/lisqu16/foliaHTML@0.0.1/css.css") {
+addCSS = function(css="https://cdn.jsdelivr.net/gh/lisqu16/foliaHTML@0.1.1/css.css") {
     cssE=document.createElement("link");
     var attrbs = [{"attrb":"rel", "value":"stylesheet"}, {"attrb":"type", "value":"text/css"},
                   {"attrb":"href", "value":css}];
