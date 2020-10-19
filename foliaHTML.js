@@ -2,7 +2,7 @@
 // by liskqu, ProgramistaZpolski
 let CSScustomURL;
 
-addCSS = function (css = "folia.css") {
+addCSS = function (css = "https://cdn.jsdelivr.net/gh/lisqu16/foliaHTML@0.1.2/css.css") {
     cssE = document.createElement("link");
     var attrbs = [{ "attrb": "rel", "value": "stylesheet" }, { "attrb": "type", "value": "text/css" },
     { "attrb": "href", "value": css }];
