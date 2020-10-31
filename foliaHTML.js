@@ -19,15 +19,9 @@ addCSScustomURL = function (css = CSScustomURL) {
         .appendChild(cssE);
 }
 
-var tags = ["duzyTekst", "naSrodku", "malyTekst", "przycisk", "tekstPrzycisk", "czcionkaSerif", "czcionkaSans", "czcionkaSans2", "czcionkaMono", "czcionkaMono2", "czcionkaMono", "czcionkaMono2", "czcionkaComic", "czcionkaDisplay", "cienMaly", "cienSredni", "cienDuzy", "cienNajwiekszy", "sredniTekst",
-    "kolorRozowyCzerwony10", "kolorCzerwony20", "kolorCzerwony10", "kolorCzerwonyPomaranczowy10", "kolorPomaranczowy30",
-    "kolorPomaranczowy20", "kolorPomaranczowy10", "kolorZolty10", "kolorPomaranczowyZolty20", "kolorPomaranczowyZolty10",
-    "kolorZoltyZielony10", "kolorZielony20", "kolorZielony10", "kolorZielonyCyan10", "kolorCyan30", "kolorCyan20",
-    "kolorCyan10", "kolorCyanNiebieski20", "kolorCyanNiebieski10", "kolorNiebieski10", "kolorNiebieskiMagenta30", "kolorNiebieskiMagenta20",
-    "kolorNiebieskiMagenta10", "kolorMagenta20", "kolorMagenta10", "kolorMagentaRozowy20", "kolorMagentaRozowy10",
-    "kolorSzary40", "kolorSzary30", "kolorSzary20", "kolorSzary10", "kolorZarazWracam", "kolorDND", "kolorOnline", "kolorNiedostepny", "kolorPozaBiurem",
-    "kolorTloOstrzezenia", "kolorOstrzezenia", "kolorTloPowaznegoOstrzezenia", "kolorPowaznegoOstrzezenia", "kolorTlaErroru",
-    "kolorErroru", "kolorTlaSukcesu", "kolorSukcesu", "poLewej", "poPrawej", "przekreslonyTekst", "pogrubionyTekst", "lekkiTekst", "najwiekszyTekst"];
+var tags = ["duzyTekst", "naSrodku", "malyTekst", "przycisk", "tekstPrzycisk", "czcionkaSerif", "czcionkaSans", "czcionkaSans2", "czcionkaMono",
+ "czcionkaMono2", "czcionkaMono", "czcionkaMono2", "czcionkaComic", "czcionkaDisplay", "cienMaly", "cienSredni", "cienDuzy", "cienNajwiekszy",
+  "sredniTekst", "poLewej", "poPrawej", "przekreslonyTekst", "pogrubionyTekst", "lekkiTekst", "najwiekszyTekst"];
 loadTags = function () {
     try {
         if (typeof tags != "object") throw new Error("Nie udało się załadować \"tagów\".");
@@ -65,7 +59,7 @@ class Obrazek extends HTMLElement {
         } else {
             imgLink = 'https://via.placeholder.com/300/09f/fff.webp';
         }
-        
+
 
         const img = document.createElement('img');
         img.src = imgLink;
