@@ -301,3 +301,6 @@ pogrubionyTekst{
 lekkiTekst{
     font-weight: 300;
 }
+link-folia{
+    cursor: pointer;
+}
