@@ -3,7 +3,7 @@ FoliaHTML to HTML, tylko że, po polsku, nawet debil go zrozumie!
 
 ## Jak zacząć?
 ```html
-<script src="https://cdn.jsdelivr.net/gh/lisqu16/foliaHTML@0.1.2/foliaHTML.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/lisqu16/foliaHTML@0.1.3/foliaHTML.min.js"></script>
 <body onload="s();">
 	<!-- przykładowy kod -->
 	<naSrodku>
