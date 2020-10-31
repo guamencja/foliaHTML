@@ -1,5 +1,6 @@
 # FoliaHTML
-FoliaHTML to HTML, tylko że, po polsku, nawet debil go zrozumie!
+FoliaHTML to HTML, tylko że, po polsku, nawet debil go zrozumie!<br>
+https://programistazpolski.ct8.pl/foliaweb/ oficjalna strona internetowa
 
 ## Jak zacząć?
 ```html
